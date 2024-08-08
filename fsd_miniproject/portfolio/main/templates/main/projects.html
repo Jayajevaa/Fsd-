@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block title %}Projects{% endblock %}
+{% block content %}
+<h2>My Projects</h2>
+<p>Here are some of the projects I've worked on. Each project showcases my skills and expertise in different areas of web development.</p>
+<div class="projects">
+    <div class="project">
+        <img src="{% static 'main/images/project1.jpeg' %}" alt="Project 1">
+        <h4>Project 1</h4>
+        <p>Description of project 1. This project demonstrates my ability to create complex web applications with a focus on user experience.</p>
+    </div>
+    <div class="project">
+        <img src="{% static 'main/images/project2.jpeg' %}" alt="Project 2">
+        <h4>Project 2</h4>
+        <p>Description of project 2. A modern web application that leverages the latest technologies to deliver a seamless experience.</p>
+    </div>
+    <div class="project">
+        <img src="{% static 'main/images/project3.jpeg' %}" alt="Project 3">
+        <h4>Project 3</h4>
+        <p>Description of project 3. This project highlights my skills in both front-end and back-end development.</p>
+    </div>
+</div>
+{% endblock %}
